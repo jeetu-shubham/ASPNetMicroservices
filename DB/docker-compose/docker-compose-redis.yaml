@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  redis:
+    container_name: aspnetrun-redis
+    ports: 
+    - 6379:6379
+    image: redis
